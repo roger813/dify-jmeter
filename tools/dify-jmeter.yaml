@@ -1,0 +1,34 @@
+identity:
+  name: "dify-jmeter"
+  author: "roger813"
+  label:
+    en_US: "dify-jmeter"
+    zh_Hans: "dify-jmeter"
+    pt_BR: "dify-jmeter"
+    ja_JP: "dify-jmeter"
+description:
+  human:
+    en_US: "JMeter tool that can be started in Dify"
+    zh_Hans: "JMeter tool that can be started in Dify"
+    pt_BR: "JMeter tool that can be started in Dify"
+    ja_JP: "JMeter tool that can be started in Dify"
+  llm: "JMeter tool that can be started in Dify"
+parameters:
+  - name: query
+    type: string
+    required: true
+    label:
+      en_US: Query string
+      zh_Hans: 查询语句
+      pt_BR: Query string
+      ja_JP: クエリ文字列
+    human_description:
+      en_US: "JMeter tool that can be started in Dify"
+      zh_Hans: "JMeter tool that can be started in Dify"
+      pt_BR: "JMeter tool that can be started in Dify"
+      ja_JP: "JMeter tool that can be started in Dify"
+    llm_description: "JMeter tool that can be started in Dify"
+    form: llm
+extra:
+  python:
+    source: tools/dify-jmeter.py
