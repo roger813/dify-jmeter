@@ -1,55 +1,44 @@
-<!--
-  ~ Dify Marketplace Template Icon
-  ~ Dify 市场模板图标
-  ~ Dify マーケットプレイステンプレートアイコン
-  ~
-  ~ WARNING / 警告 / 警告:
-  ~ 
-  ~ English: This is a TEMPLATE icon from Dify Marketplace only. You MUST NOT use this default icon in any way.
-  ~ Please replace it with your own custom icon before submit this plugin.
-  ~ 
-  ~ 中文: 这只是来自 Dify 市场的模板图标。您绝对不能以任何方式使用此默认图标。
-  ~ 请在提交此插件之前将其替换为您自己的自定义图标。
-  ~ 
-  ~ 日本語: これは Dify マーケットプレイスのテンプレートアイコンです。このデフォルトアイコンをいかなる方法でも使用してはいけません。
-  ~ このプラグインを提出する前に、独自のカスタムアイコンに置き換えてください。
-  ~ 
-  ~ DIFY_MARKETPLACE_TEMPLATE_ICON_DO_NOT_USE
-  -->
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_15253_95095)">
-<rect width="40" height="40" fill="#0033FF"/>
-<g filter="url(#filter0_n_15253_95095)">
-<rect width="40" height="40" fill="url(#paint0_linear_15253_95095)"/>
-</g>
-<path d="M28 10C28.5523 10 29 10.4477 29 11V16C29 16.5523 28.5523 17 28 17H23V30C23 30.5523 22.5523 31 22 31H18C17.4477 31 17 30.5523 17 30V17H11.5C10.9477 17 10.5 16.5523 10.5 16V13.618C10.5 13.2393 10.714 12.893 11.0528 12.7236L16.5 10H28ZM23 12H16.9721L12.5 14.2361V15H19V29H21V15H23V12ZM27 12H25V15H27V12Z" fill="white"/>
-</g>
-<defs>
-<filter id="filter0_n_15253_95095" x="0" y="0" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feTurbulence type="fractalNoise" baseFrequency="2 2" stitchTiles="stitch" numOctaves="3" result="noise" seed="8033" />
-<feComponentTransfer in="noise" result="coloredNoise1">
-<feFuncR type="linear" slope="2" intercept="-0.5" />
-<feFuncG type="linear" slope="2" intercept="-0.5" />
-<feFuncB type="linear" slope="2" intercept="-0.5" />
-<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-</feComponentTransfer>
-<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
-<feComponentTransfer in="noise1Clipped" result="color1">
-<feFuncA type="table" tableValues="0 0.06" />
-</feComponentTransfer>
-<feMerge result="effect1_noise_15253_95095">
-<feMergeNode in="shape" />
-<feMergeNode in="color1" />
-</feMerge>
-</filter>
-<linearGradient id="paint0_linear_15253_95095" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
-<stop stop-color="#1443FF"/>
-<stop offset="1" stop-color="#0031F5"/>
-</linearGradient>
-<clipPath id="clip0_15253_95095">
-<rect width="40" height="40" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">  <image id="image0" width="40" height="40" x="0" y="0"
+    xlink:href="data:image/png;base64,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
+MDowMKwm0hAAAAAASUVORK5CYII=" />
 </svg>

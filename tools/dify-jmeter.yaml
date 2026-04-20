@@ -4,31 +4,23 @@ identity:
   label:
     en_US: "dify-jmeter"
     zh_Hans: "dify-jmeter"
-    pt_BR: "dify-jmeter"
-    ja_JP: "dify-jmeter"
 description:
   human:
     en_US: "JMeter tool that can be started in Dify"
-    zh_Hans: "JMeter tool that can be started in Dify"
-    pt_BR: "JMeter tool that can be started in Dify"
-    ja_JP: "JMeter tool that can be started in Dify"
+    zh_Hans: "一款支持在 Dify 中调用 / 启动的 JMeter 工具"
   llm: "JMeter tool that can be started in Dify"
 parameters:
-  - name: query
+  - name: jmx_b64
     type: string
     required: true
     label:
-      en_US: Query string
-      zh_Hans: 查询语句
-      pt_BR: Query string
-      ja_JP: クエリ文字列
+      en_US: jmx_b64
+      zh_Hans: jmx_b64
     human_description:
-      en_US: "JMeter tool that can be started in Dify"
-      zh_Hans: "JMeter tool that can be started in Dify"
-      pt_BR: "JMeter tool that can be started in Dify"
-      ja_JP: "JMeter tool that can be started in Dify"
+      en_US: "Base64 encoded JMeter script"
+      zh_Hans: "JMeter 脚本 Base64 编码"
     llm_description: "JMeter tool that can be started in Dify"
-    form: llm
+    form: form
 extra:
   python:
     source: tools/dify-jmeter.py
